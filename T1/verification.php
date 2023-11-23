@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,18 +8,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href=".\utils\css\main.css" />
-    <title>Document</title>
+    <title>Problema</title>
 </head>
 
 <body>
-    <nav class="lista">
-        <ul>
-            <li><a href=".\index2.php">Inicio</a></li>
-            <li><a href="index.php">Registro</a></li>
-        </ul>
-    </nav>
-
-    <h1><br>Bienvenidos a la aplicación</br></h1>
+    <?php
+    if ($_SESSION['numeroaleatorio'] == $_REQUEST['numero']) {
+        echo "Ingresó el valor correcto";
+    } else {
+        echo "Incorrecto";
+    }
+    ?>
 </body>
 
 </html>
