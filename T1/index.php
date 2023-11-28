@@ -13,7 +13,7 @@
         Dígitos verificadores:<img src="./utils/php/capchat.php">
         <br>
         Ingrese valor:
-        <input type="text" name="numero">
+        <input type="text" name="numero" required>
         <br>
         <input type="submit" value="Verificar">
     </form>

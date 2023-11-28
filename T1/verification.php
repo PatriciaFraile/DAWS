@@ -20,5 +20,6 @@ session_start();
     }
     ?>
 </body>
+<button id="register"><a href="register.php">Siguente</a></button>
 
 </html>

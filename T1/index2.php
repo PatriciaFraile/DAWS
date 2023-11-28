@@ -11,7 +11,7 @@
 <body>
     <nav class="lista">
         <ul>
-            <li><a href=".\index2.php">Inicio</a></li>
+            <li><a href="index2.php">Inicio</a></li>
             <li><a href="index.php">Registro</a></li>
         </ul>
     </nav>
