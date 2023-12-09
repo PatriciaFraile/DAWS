@@ -22,7 +22,7 @@
         <label for="localidad">Location</label>
         <input type="text" class="form-control" id="localidad" name="localidad" required />
         <label id="contrasena">Password</label>
-        <input type="password" class="form-control" id="contrasena" name="contrasena " placeholder="PassWord" />
+        <input type="password" class="form-control" id="contrasena" name="contrasena" placeholder="PassWord" />
 
         <input type="submit" value="registrar" />
     </form>
