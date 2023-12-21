@@ -29,8 +29,15 @@ li a{
 h1{
     padding-left: 30px;
 }
+.formato{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-49%, -49%);
+}
 form{
     padding-top: 10px;
+    
 }
 #register a{
     color: black;
