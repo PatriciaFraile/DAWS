@@ -1,0 +1,45 @@
+nav{
+    background-color: black;
+    padding-top: 10px;
+   
+}
+.lista ul{
+   padding-right: 30px;
+   padding-left: 10px;
+   padding-bottom: 5px;
+   padding-top: 0px;
+   margin: 0px;
+   justify-content: flex-end;
+   display: flex;
+   
+}
+.lista li{
+   list-style-type: none;
+   display: inline;
+   padding-right: 20px;
+   color: white;
+   text-align: right;
+
+}
+li a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+h1{
+    padding-left: 30px;
+}
+.formato{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-49%, -49%);
+}
+form{
+    padding-top: 10px;
+    
+}
+#register a{
+    color: black;
+    text-decoration: none;
+}
