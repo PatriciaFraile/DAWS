@@ -1,0 +1,10 @@
+96fa0f,::1,GET,http://localhost/proyect/public/,1709663992,,404
+cde816,::1,GET,http://localhost/,1709664636,,404
+6a033d,::1,GET,http://localhost/,1709666376,502915,500
+502915,::1,GET,http://localhost/,1709666377,,500
+af309e,::1,GET,http://localhost/saludo,1709666459,2314e9,500
+2314e9,::1,GET,http://localhost/saludo,1709666459,,500
+1f5315,::1,GET,http://localhost/,1709666464,46dd50,500
+46dd50,::1,GET,http://localhost/,1709666464,,500
+34734e,::1,GET,http://localhost/,1709666487,,404
+f65f34,::1,GET,http://localhost/saludo,1709666586,,200
