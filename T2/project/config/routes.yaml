@@ -1,0 +1,6 @@
+controllers:
+    resource: ../src/Controller/
+    type: attribute
+saludo_ces:
+    path: /saludo
+    controller: App\Controller\Saludo::hola
