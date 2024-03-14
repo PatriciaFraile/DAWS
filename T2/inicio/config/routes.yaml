@@ -4,3 +4,6 @@ controllers:
 saludo_ces:
     path: /saludo
     controller: App\Controller\Saludo::hola
+calculadora:
+    path: /calculadora
+    controller: App\Controller\Calculadora::operar
