@@ -1,9 +1,11 @@
 controllers:
     resource: ../src/Controller/
-    type: attribute
-saludo_ces:
+    type: annotation
+
+saludo :
     path: /saludo
     controller: App\Controller\Saludo::hola
+
 calculadora:
-    path: /calculadora
+    path: /calculadora/{edad}
     controller: App\Controller\Calculadora::operar
