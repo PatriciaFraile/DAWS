@@ -1,0 +1,9 @@
+controllers:
+    resource: ../src/Controller/
+    type: attribute
+suma:
+    path: /suma/{n1}/{n2}
+    controller: App\Controller\Suma::operacion
+resta:
+    path: /resta/{n1}/{n2}
+    controller: App\Controller\Resta::operacion

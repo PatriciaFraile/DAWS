@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{% block title %}Resta{% endblock %}</title>
+
+    </head>
+    <body>
+        {% block body %}
+        {% if calculo < 0 %}
+            La resta es negativa : {{n1}} - {{n2}} = {{calculo}}
+        {% else %}
+        La resta de {{n1}} y {{n2}} es : {{n1}} - {{n2}} = {{calculo}}
+        {% endif %}
+        {% endblock %}
+    </body>
+</html
